@@ -8,7 +8,13 @@ license = "GPL-3.0"
 homepage = "https://github.com/spacejam/rio"
 repository = "https://github.com/spacejam/rio"
 keywords = ["networking", "io-uring", "io_uring", "uring", "io"]
-categories = ["asynchronous", "concurrency", "filesystem", "network-programming", "os"]
+categories = [
+    "asynchronous",
+    "concurrency",
+    "filesystem",
+    "network-programming",
+    "os"
+]
 documentation = "https://docs.rs/rio/"
 readme = "README.md"
 
@@ -23,6 +29,7 @@ debug = true
 
 [dev-dependencies]
 extreme = "666.666.666"
+futures = "*"
 
 [dependencies]
 libc = "0.2.66"
